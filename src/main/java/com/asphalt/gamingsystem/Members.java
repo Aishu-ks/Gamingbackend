@@ -15,7 +15,7 @@ public class Members {
 	
 
 
-    private float balance;
+    private Double balance;
     
  
     
@@ -35,20 +35,20 @@ public class Members {
 		this.name = name;
 	}
 
-	public String getphone() {
+	public String getPhone() {
 		return phone;
 	}
 
-	public void setphone(String phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 
 	
-	public float getbalance() {
+	public Double getBalance() {
 		return balance;
 	}
 
-	public void setbalance(float balance) {
+	public void setBalance(Double balance) {
 		this.balance = balance;
 	}
 

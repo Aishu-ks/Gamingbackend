@@ -15,7 +15,7 @@ public class Games {
 	
 
 
-    private float price;
+    private Double price;
     
  
     
@@ -44,11 +44,11 @@ public class Games {
 	}
 
 	
-	public float getPrice() {
+	public Double getPrice() {
 		return price;
 	}
 
-	public void setPrice(float price) {
+	public void setPrice(Double price) {
 		this.price = price;
 	}
 

@@ -15,7 +15,7 @@ public class Transactions {
 
     private String gameId; // Reference to games._id
 
-    private double amount; // Must be provided when saving
+    private Double amount; // Must be provided when saving
 
     private Date dateTime = new Date(); // Defaults to current date and time
 
@@ -44,10 +44,10 @@ public class Transactions {
     }
 
     // Getter and Setter for amount
-    public double getAmount() {
+    public Double getAmount() {
         return amount;
     }
-    public void setAmount(double amount) {
+    public void setAmount(Double amount) {
         this.amount = amount;
     }
 

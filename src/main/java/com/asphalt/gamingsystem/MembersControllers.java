@@ -35,8 +35,8 @@ public class MembersControllers {
         Members oldMembers = repo.findById(id).orElse(null);
         if (oldMembers != null) {
             oldMembers.setName(members.getName());
-            oldMembers.setphone(members.getphone());
-            oldMembers.setbalance(members.getbalance());
+            oldMembers.setPhone(members.getPhone());
+            oldMembers.setBalance(members.getBalance());
             return repo.save(oldMembers);
         }
         return null;
