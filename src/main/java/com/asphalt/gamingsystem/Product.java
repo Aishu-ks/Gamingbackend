@@ -20,6 +20,16 @@ public class Product {
     private float price;
     
     private int stock;
+    public Product(String id, String name, String description, String category, String tags, float price, int stock) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.category = category;
+        this.tags = tags;
+        this.price = price;
+        this.stock = stock;
+    }
+
     
     public String getId() {
 		return id;
