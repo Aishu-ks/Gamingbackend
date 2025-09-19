@@ -19,7 +19,11 @@ public class MembersControllers {
         Members savedMembers = repo.save(members);
         return savedMembers;
     }
-
+    @PostMapping("/search") // This handles POST /members/search
+    public MemberSearchDTO searchMember(@RequestBody MemberSearchDTO request) {
+        // Example logic: just returning the request for now
+        return request;
+    }
     @GetMapping
     public List<Members> findAll() {
         return repo.findAll();
